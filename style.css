@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
+
+:root{
+    --corprincipal: #5592f2;
+    --corsecundaria: #0e0e1b;
+    --cortextop: #1c3f77;
+}
+
+body{
+    background-color:aliceblue;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Anek-Kannada', 'sans-serif';
+
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.topo h1{
+    
+    color: var(--cortextop);
+    font-size: 50px;
+}
+
+.topo img{
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+.container-input{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input{
+    width: 400px;
+    height: 330px;
+    padding: 10px;
+}
+
+#input-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: var(--corsecundaria);
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#output{
+  
+    flex-direction: column;
+    border: 3px solid var(--corprincipal);
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    margin-right: 3%;
+
+    
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(104, 150, 248);
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img{
+    max-width: 400px;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 7%;
+    margin-bottom: 3%;
+}
+
+.container-btn button{
+    text-align: center;
+    border: 2px solid var(--cortextop);
+    border-radius: 10px;
+    text-decoration: none;
+    color:#397deb;
+    width: 150px;
+    height: 50px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.btn-copiar{
+    border: 2px solid var(--cortextop);
+    border-radius: 10px;
+    text-decoration: none;
+    color:#397deb;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.container-btn button:hover{
+    border: 2px solid rgb(104, 150, 248);
+    transition: 0.5s all;
+
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px;
+    background:aliceblue;
+    color: rgb(12, 12, 12);
+}
+
+.rodape h3{
+    font-size: 16px;
+}
+.icons ion-icon{
+    
+    width: 25px;
+    height: 25px;
+    color: #070d53;
+}
+
+.icons ion-icon:hover{
+    color: #0a169b;
+}

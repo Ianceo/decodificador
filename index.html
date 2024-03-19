@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/iconrick.gif" type="image/x-icon">
+</head>
+
+<body>
+    <main class="main-container">
+        <header class="topo">
+            <img src="imagens/iconrick.gif" alt="logo-rick-img">
+            <h1>Decodificador de texto</h1>
+        </header>
+
+        <div class="container-input">
+            <div class="input">
+                <textarea  id="input-texto" placeholder="Inserir o texto."></textarea>
+                <p>ALERTA!: Apenas Letras Maiúsculas e sem acentos!</p>
+                
+            </div>
+
+        <div id="output">
+            <img src="imagens/fundoRick.gif" alt="rick-danca-img">
+            <h2>Sua mensagem sera exibida aqui,</h2>
+            <span>Digite um texto para criptografar ou descriptografar.</span>
+        </div>    
+        </div>
+
+        <div class="buttons">
+            <div class="container-btn">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/ian-ceo/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/Ianceo" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            
+        </div>
+        <h3>idealizado por Ian Ceo</h3>
+    </footer>
+
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
