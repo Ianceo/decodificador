@@ -15,7 +15,7 @@ function criptografar(){
 function descriptografar(){
     var texto = textInput.value;
 
-    var resultDescripto = texto.replace(/wbbbk/g, "e").replace(/lbb/g, "i").replace(/db/g, "a")
+    var resultDescripto = texto.replace(/wbbk/g, "e").replace(/lbb/g, "i").replace(/db/g, "a")
     .replace(/ric/g, "o").replace(/mor/g, "u");
 
     document.getElementById("output").innerHTML = '<textarea readonly id="input-texto">' + resultDescripto + 
