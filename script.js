@@ -22,6 +22,12 @@ function descriptografar(){
     '</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>';
 }
 
+function btnLimpar() {
+    window.location.reload();
+    resultCripto.value = "";
+    resultDescripto.value = "";
+}
+
 
 function copiar() {
     var resultadoCopiar = document.querySelector("#output textarea");
